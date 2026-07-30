@@ -1,0 +1,11 @@
+#ifndef OS_CONFIG_H
+#define OS_CONFIG_H
+
+#define STATIC_ANGLE_X 0
+#define STATIC_ANGLE_Y 0
+#define STATIC_ANGLE_Z 0
+#define STATIC_BLOCK_MAP_Y_AXIS -160
+#define STATIC_CAM_SENSITIVITY 1
+#define STATIC_JUMP_HEIGHT 150
+
+#endif

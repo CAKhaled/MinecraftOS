@@ -1,0 +1,13 @@
+top_bottom_texture=images/top_bottom.jpg
+sides_texture=images/sides.jpg
+top_bottom_stone=images/stone.jpg
+sides_stone=images/stone.jpg
+angle_x=0
+angle_y=0
+angle_z=0
+BLOCK_MAP_Y_AXIS=-160
+CAM_SENSITIVITY=1
+JUMP_HEIGHT=150
+ui_grass=images/sides.jpg
+ui_stone=images/stone.jpg
+CAMERA_FOV=256
