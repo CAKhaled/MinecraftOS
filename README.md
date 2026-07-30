@@ -8,10 +8,10 @@ A custom operating system built completely from scratch that boots directly into
 - Written in C and x86 Assembly
 - Boots without any existing operating system
 - Software-rendered 3D voxel engine
-- Minecraft-inspired world generation
+- Minecraft-inspired voxel world
 - First-person camera
 - Keyboard and mouse controls
-- Chunk-based world rendering
+- Chunk-based rendering
 - Texture mapping
 - Basic game UI (Hotbar, Crosshair, Block Selection)
 
@@ -22,27 +22,41 @@ A custom operating system built completely from scratch that boots directly into
 - NASM
 - GCC (i686-elf)
 - Custom Kernel
-- Software Rendering (No OpenGL/DirectX)
+- Software Rendering
 
-## 🚀 Getting Started
+## 🚀 Build
 
-### Build
+Build the project using:
 
 ```bash
 build.bat
 ```
 
-### Run
+## ▶️ Run
+
+After building, the generated ISO will be located at:
+
+```text
+extracted_iso/minecraftos.iso
+```
+
+Run it using QEMU:
 
 ```bash
-qemu-system-i386 -cdrom minecraftos.iso -boot d -m 512
+qemu-system-i386 -cdrom extracted_iso/minecraftos.iso -boot d -m 512
 ```
+
+## 📝 Notes
+
+> **Important:** This project cannot be built or modified directly on Windows.
+>
+> To edit or compile the operating system, use **Linux** or **Windows Subsystem for Linux (WSL)** with the required cross-compilation toolchain installed.
 
 ## 📸 Preview
 
-> *(Add screenshots or gameplay GIFs here.)*
+Add screenshots or gameplay GIFs here.
 
-## 🎯 Goal
+## 🎯 Project Goal
 
 The goal of this project is to learn low-level programming by building a complete operating system capable of running a Minecraft-inspired voxel engine from scratch.
 
