@@ -51,7 +51,7 @@ qemu-system-i386 -cdrom extracted_iso/minecraftos.iso -boot d -m 512
 > **Important:** This project cannot be built or modified directly on Windows.
 >
 > To edit or compile the operating system, use **MAC OS** or **Linux** or **Windows Subsystem for Linux (WSL)** orwith the required cross-compilation toolchain installed.
-> This project was developed on macOS.
+> This project was developed on **macOS**.
 ## 📸 Preview
 
 Add screenshots or gameplay GIFs here.
